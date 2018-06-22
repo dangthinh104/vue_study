@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ví dụ đầu tiên Vue.js - allaravel.com</title>
+</head>
+<body>
+    <div id="app">
+        <h1>{{ message }}</h1>
+        <h2>{{ message }}</h2>
+        <input v-model="message">
+    </div>
+	   <div id="app2">
+        <h1>{{ message2 }}</h1>
+        <h2>{{ message2 }}</h2>
+    </div>
+    <script src="https://vuejs.org/js/vue.min.js"></script>
+    <script type="text/javascript">
+     var re =   new Vue({
+            el: '#app',
+            data: {
+                message: 'Xin chào, tôi là Vue.js'
+            }
+        });
+		
+		   var rer =   new Vue({
+            el: '#app2',
+            data: {
+                message2: 'Xin chào, tôi là Vue.js 2'
+            }
+        })
+    </script>
+</body>
+</html>

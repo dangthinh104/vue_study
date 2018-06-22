@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue Component</title>
+    <!--VueJS-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+
+    <!--BootStrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row" id="app">
+        <div class="col-md-4 alert-success">
+            <global-component></global-component>
+        </div>
+        <div class="col-md-4 alert-primary">
+            <local-component></local-component>
+        </div>
+        <div class="col-md-4 alert-secondary">
+            <book-list></book-list>
+        </div>
+    </div>
+</div>
+</body>
+<script src="dist/app.js"></script>
+</html>

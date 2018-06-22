@@ -1,0 +1,34 @@
+/public/hot
+/public/storage
+/public/backend/build
+/storage/*.key
+/vendor
+/.vscode
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.env
+
+
+# Bower, Composer, Node, Sass
+bower_components
+node_modules
+npm-debug.log*
+.sass-cache/
+*.css.map
+
+# Eclipse, NetBeans, PhpStorm, SublimeText
+.project
+.buildpath
+.settings/
+nbproject/
+.idea/
+*.cache
+*.sublime-*
+
+# OS
+._*
+.DS_Store
+Thumbs.db

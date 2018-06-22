@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ví dụ đầu tiên Vue.js chuyển đổi sang jQuery- allaravel.com</title>
+</head>
+<body>
+    <h1>Xin chào, tôi là Vue.js</h1>
+    <h2>Xin chào, tôi là Vue.js</h2>
+    <input type="text" value="Xin chào, tôi là Vue.js">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("input").on("change blur keyup mouseup", function() {
+                $("h1").text(($(this).val())); 
+            });
+        });
+    </script>
+</body>
+</html>
